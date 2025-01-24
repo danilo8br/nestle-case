@@ -91,5 +91,6 @@ Os passos do projeto são:
 
     ---
     ![alt text](IMG/intro.jpg)
-8. **Infraestrutura como Código (Terraform)**:
+    ![alt text](img/dashboard.JPG)
+8. **Infraestrutura como Código (Terraform)**:  
 	A infraestrutura necessária para suportar o pipeline de dados é provisionada utilizando **Terraform**, garantindo consistência, automação e facilidade de replicação do ambiente. Isso inclui a configuração do **Azure Data Lake Storage (ADLS) Gen 2**, **Databricks**, **Synapse Analytics**, e outras dependências utilizadas no projeto.
