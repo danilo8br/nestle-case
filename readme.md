@@ -1,5 +1,5 @@
-![alt text](img/pipeline.JPG)
-## Case Nestle
+![alt text](IMG/pipeline.JPG)
+# Case Nestle
 Este projeto tem como objetivo construir um pipeline de dados, envolvendo a ingestão, processamento e armazenamento de dados em um Data Lake utilizando a arquitetura do Azure.
 
 ## Arquitetura do Pipeline
