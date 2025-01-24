@@ -12,7 +12,7 @@ Este projeto tem como objetivo construir um pipeline de dados, envolvendo a inge
 **Processamento:** PySpark (Databricks)  
 **Armazenamento:** Azure Data Lake Storage Gen 2  
 **Formato de Dados:** CSV, Parquet  
-**Cloud:** Azure
+**Cloud:** Azure  
 **Armazenamento Analitico:** Azure Synapse Analytics  
 **Visualização de Dados:** Power BI  
 **Controle de Versionamento:** BitBucket  
