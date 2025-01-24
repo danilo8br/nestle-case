@@ -2,7 +2,7 @@ Este projeto tem como objetivo construir um pipeline de dados, envolvendo a inge
 
 ## Arquitetura do Pipeline
 ---
-![!\[\[Pasted image 20250124073150.png\]\]](image.png)
+![alt text](IMG/pipeline.JPG)
 
 ## Tecnologias
 ---
