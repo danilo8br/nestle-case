@@ -31,29 +31,37 @@ Os passos do projeto são:
 
 1. **Ingestão de Dados:**  
     A primeira etapa do pipeline é a ingestão dos dados para o **Azure Data Lake Storage (ADLS) Gen 2** utilizando **Python**. Os arquivos CSV são enviados para o Data Lake para processamento posterior.
-    
-2. **Transformação de Dados (Databricks com PySpark):**  
-    Após a ingestão, os dados são consumidos dentro do **Databricks** com o uso de **PySpark**, transformando os arquivos CSV para o formato **Parquet**.
-    
-3. **Leitura da Camada Row:**  
+
+    ---
+    ![alt text](img/upload_python.JPG)
+2. **Leitura da Camada Row:**  
     Antes de começar fazer as transformações, os dados são lidos em formato CSV da camada raw.
-    
-4. **Tratamento de Dados (Validações e Transformações):**  
+
+    ---
+    ![alt text](img/adls.JPG)
+3. **Tratamento de Dados (Validações e Transformações):**  
     Os dados passam por um processo de tratamento, que inclui validações e transformações necessárias, como limpeza de dados e ajustes conforme os requisitos de negócios.
     
-5. **Armazenamento na Camada Processed:**  
+    ---
+    ![alt text](img/databricks.JPG)
+4. **Armazenamento na Camada Processed:**  
     Após o tratamento, os dados processados são movidos para a **camada Processed**, onde ficam armazenados com qualidade e prontos para análises mais aprofundadas.
     
+    ---
+    ![alt text](img/processed.JPG)
+5. **Consumo pelo Azure Synapse Analytics:**  
+    Os dados são consumidos pelo **Azure Synapse Analytics** para realizar consultas e análises em larga escala, aproveitando a escalabilidade da plataforma para gerar relatórios e insights rápidos.
+
+    ---
+    ![alt text](image.png)
 6. **Geração de Insights:**
 	Com os dados já limpos e ajustados, são gerados insights para analisa e exploração dos dados.
-    
-7. **Consumo pelo Azure Synapse Analytics:**  
-    Os dados são consumidos pelo **Azure Synapse Analytics** para realizar consultas e análises em larga escala, aproveitando a escalabilidade da plataforma para gerar relatórios e insights rápidos.
-    
-8. **Criação de Dashboards no Power BI:**  
+
+    ---
+    ![alt text](img/query.JPG)
+7. **Criação de Dashboards no Power BI:**  
     Por fim, **dashboards interativos** são criados no **Power BI**, oferecendo uma interface visual para a análise dos dados e apresentação dos insights gerados no pipeline.
-    
-9. **Infraestrutura como Código (Terraform)**:
+
+    ---
+8. **Infraestrutura como Código (Terraform)**:
 	A infraestrutura necessária para suportar o pipeline de dados é provisionada utilizando **Terraform**, garantindo consistência, automação e facilidade de replicação do ambiente. Isso inclui a configuração do **Azure Data Lake Storage (ADLS) Gen 2**, **Databricks**, **Synapse Analytics**, e outras dependências utilizadas no projeto.
-
-

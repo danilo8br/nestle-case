@@ -8,7 +8,7 @@ account_key = "suachave"
 container_name = "raw"  # O nome do contêiner da camada raw
 
 # Caminho da pasta local onde os arquivos CSV estão armazenados
-local_directory = r"C:\Users\Danil\OneDrive\Documents\Case Nestle\base_de_dados"
+local_directory = r"C:\Users\Danil\OneDrive\Documents\case_nestle\base_de_dados"
 
 # URL do Data Lake (formato do Azure Storage Gen2)
 url = f"https://{account_name}.dfs.core.windows.net/{container_name}"
