@@ -1,11 +1,13 @@
+
+## Case Nestle
 Este projeto tem como objetivo construir um pipeline de dados, envolvendo a ingestão, processamento e armazenamento de dados em um Data Lake utilizando a arquitetura do Azure.
 
 ## Arquitetura do Pipeline
----
+
 ![alt text](IMG/pipeline.JPG)
 
 ## Tecnologias
----
+
 **Ingestão:** Python  
 **Processamento:** PySpark (Databricks)  
 **Armazenamento:** Azure Data Lake Storage Gen 2  
@@ -15,7 +17,7 @@ Este projeto tem como objetivo construir um pipeline de dados, envolvendo a inge
 **Ferramentas:** Git, GitHub, Figma
 
 ## Cenário
----
+
 **Dados**  
 Os dados para este projeto são extraídos de seis arquivos CSV contendo informações sobre funcionários de uma empresa fictícia. 
 
