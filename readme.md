@@ -33,22 +33,22 @@ Os passos do projeto são:
     A primeira etapa do pipeline é a ingestão dos dados para o **Azure Data Lake Storage (ADLS) Gen 2** utilizando **Python**. Os arquivos CSV são enviados para o Data Lake para processamento posterior.
 
     ---
-    ![alt text](img/upload_python.JPG)
+    ![alt text](IMG/upload_python.JPG)
 2. **Leitura da Camada Row:**  
     Antes de começar fazer as transformações, os dados são lidos em formato CSV da camada raw.
 
     ---
-    ![alt text](img/adls.JPG)
+    ![alt text](IMG/adls.JPG)
 3. **Tratamento de Dados (Validações e Transformações):**  
     Os dados passam por um processo de tratamento, que inclui validações e transformações necessárias, como limpeza de dados e ajustes conforme os requisitos de negócios.
     
     ---
-    ![alt text](img/databricks.JPG)
+    ![alt text](IMG/databricks.JPG)
 4. **Armazenamento na Camada Processed:**  
     Após o tratamento, os dados processados são movidos para a **camada Processed**, onde ficam armazenados com qualidade e prontos para análises mais aprofundadas.
     
     ---
-    ![alt text](img/processed.JPG)
+    ![alt text](IMG/processed.JPG)
 5. **Consumo pelo Azure Synapse Analytics:**  
     Os dados são consumidos pelo **Azure Synapse Analytics** para realizar consultas e análises em larga escala, aproveitando a escalabilidade da plataforma para gerar relatórios e insights rápidos.
 
@@ -58,7 +58,7 @@ Os passos do projeto são:
 	Com os dados já limpos e ajustados, são gerados insights para analisa e exploração dos dados.
 
     ---
-    ![alt text](img/query.JPG)
+    ![alt text](IMG/query.JPG)
 7. **Criação de Dashboards no Power BI:**  
     Por fim, **dashboards interativos** são criados no **Power BI**, oferecendo uma interface visual para a análise dos dados e apresentação dos insights gerados no pipeline.
 
