@@ -13,11 +13,11 @@ Este projeto tem como objetivo construir um pipeline de dados, envolvendo a inge
 **Armazenamento:** Azure Data Lake Storage Gen 2  
 **Formato de Dados:** CSV, Parquet  
 **Cloud:** Azure
-**Armazenamento Analitico:** Azure Synapse Analytics 
-**Visualização de Dados:** Power BI 
-**Controle de Versionamento:** BitBucket 
-**Visualização de Dados:** Power BI 
-**Ferramentas:** Git, GitHub, Figma
+**Armazenamento Analitico:** Azure Synapse Analytics  
+**Visualização de Dados:** Power BI  
+**Controle de Versionamento:** BitBucket  
+**Visualização de Dados:** Power BI  
+**Ferramentas:** Git, GitHub, Figma  
 
 ## Cenário
 
