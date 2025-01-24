@@ -2,11 +2,38 @@
 # Case Nestle
 Este projeto tem como objetivo construir um pipeline de dados, envolvendo a ingestão, processamento e armazenamento de dados em um Data Lake utilizando a arquitetura do Azure.
 
-## Arquitetura do Pipeline
+# Desafio
+Você recebeu 6 bases distintas: Cargos, CEP, Clientes, Funcionários, Nível e PQ.
+Lembre que somos a maior empresa de bens de consumo do mundo e que no dia a dia
+você irá trabalhar com bases muito maiores.
+
+Must have: ETL e Documentação.
+
+Escolha uma linguagem para demonstrar a lógica (python, pyspark, scala ou R)
+
+Utilização de pelo menos 2 funções (Window, GroupBy, Union)
+
+Lembre-se: Você é o responsável por tratar e fazer os relacionamentos dessas bases da melhor
+maneira possível!
+
+O entregável poderá ser uma apresentação ou os códigos comentados com a documentação (ou
+ambos)
+
+Nice to have:
+
+5 insights relevantes dos datasets apresentados.
+
+Utilização de uma Biblioteca/Framework extra (exemplo Pandas).
+
+Lógica ou tratativa para dados sensíveis.
+
+Data visualization.
+
+# Arquitetura do Pipeline
 
 ![alt text](IMG/pipeline.JPG)
 
-## Tecnologias
+# Tecnologias
 
 **Ingestão:** Python  
 **Processamento:** PySpark (Databricks)  
@@ -19,7 +46,7 @@ Este projeto tem como objetivo construir um pipeline de dados, envolvendo a inge
 **Visualização de Dados:** Power BI  
 **Ferramentas:** Git, GitHub, Figma  
 
-## Cenário
+# Cenário
 
 **Dados**  
 Os dados para este projeto são extraídos de seis arquivos CSV contendo informações sobre funcionários de uma empresa fictícia. 
@@ -53,7 +80,7 @@ Os passos do projeto são:
     Os dados são consumidos pelo **Azure Synapse Analytics** para realizar consultas e análises em larga escala, aproveitando a escalabilidade da plataforma para gerar relatórios e insights rápidos.
 
     ---
-    ![alt text](image.png)
+    ![alt text](IMG/image.png)
 6. **Geração de Insights:**
 	Com os dados já limpos e ajustados, são gerados insights para analisa e exploração dos dados.
 
@@ -63,5 +90,6 @@ Os passos do projeto são:
     Por fim, **dashboards interativos** são criados no **Power BI**, oferecendo uma interface visual para a análise dos dados e apresentação dos insights gerados no pipeline.
 
     ---
+    ![alt text](img/intro.jpg)
 8. **Infraestrutura como Código (Terraform)**:
 	A infraestrutura necessária para suportar o pipeline de dados é provisionada utilizando **Terraform**, garantindo consistência, automação e facilidade de replicação do ambiente. Isso inclui a configuração do **Azure Data Lake Storage (ADLS) Gen 2**, **Databricks**, **Synapse Analytics**, e outras dependências utilizadas no projeto.
