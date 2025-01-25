@@ -76,17 +76,17 @@ Os passos do projeto são:
     ---
     ![alt text](IMG/processed.JPG)
 5. **Consumo pelo Azure Synapse Analytics:**  
-    Os dados são consumidos pelo **Azure Synapse Analytics** para realizar consultas e análises em larga escala, aproveitando a escalabilidade da plataforma para gerar relatórios e insights rápidos.
-
+    Os dados são consumidos pelo **Azure Synapse Analytics**, onde são criadas tabelas externas que se conectam à camada processed.
+    
     ---
     ![alt text](IMG/image.png)
 6. **Geração de Insights:**
-	Com os dados já limpos e ajustados, são gerados insights para analisa e exploração dos dados.
+	Com os dados já limpos e ajustados, são gerados insights para analise e exploração dos dados.
 
     ---
     ![alt text](IMG/query.JPG)
 7. **Criação de Dashboards no Power BI:**  
-    Por fim, **dashboards interativos** são criados no **Power BI**, oferecendo uma interface visual para a análise dos dados e apresentação dos insights gerados no pipeline.
+    Por fim, **dashboards interativos** são criados no **Power BI**, oferecendo uma interface visual para apresentação dos dados no pipeline.
 
     ---
     ![alt text](IMG/intro.jpg)
