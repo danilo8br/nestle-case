@@ -31,7 +31,7 @@ Data visualization.
 
 # Arquitetura do Pipeline
 
-![alt text](img/pipeline.JPG)
+![alt text](IMG/pipeline.JPG)
 
 # Tecnologias
 
